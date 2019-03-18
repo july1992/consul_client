@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+  application:
+    name: consul_client
+
+server:
+  port: 6001
